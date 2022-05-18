@@ -1,8 +1,9 @@
 import lightrun = require("lightrun");
 
-lightrun.start({
-    lightrunSecret: 'b0ec4ae2-e711-4ad5-98d9-f2ac028c093e',
-});
+require('lightrun').start({
+      lightrunSecret: 'b0ec4ae2-e711-4ad5-98d9-f2ac028c093e',
+      company: '27f1f863-c035-4711-9479-ab09f37aef3a',
+  });
 
 const express = require("express");
 const app = express();
