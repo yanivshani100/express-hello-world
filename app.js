@@ -1,4 +1,3 @@
-import lightrun = require("lightrun");
 
 require('lightrun').start({
       lightrunSecret: 'b0ec4ae2-e711-4ad5-98d9-f2ac028c093e',
