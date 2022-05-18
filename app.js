@@ -1,7 +1,7 @@
 'use strict';
 
 
-require('/Users/yanivshani/lightrun/athena-dev/nodejs-agent').start({
+require('lightrun').start({
   lightrunSecret: 'b0ec4ae2-e711-4ad5-98d9-f2ac028c093e',
   capture: {includeNodeModules:true},
   company: 'yanivshani',
